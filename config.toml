@@ -1,0 +1,50 @@
+baseurl = "https://dekuofa1995.github.io"
+DefaultContentLanguage = "en"
+title = "Dekuofa's Blog"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[Params]
+  # homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Build by Hugo & beautifulhugo"
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "dekuofa1995"
+  website = "dekuofa1995.github.io"
+  email = "dekuofa1995@gmail.com"
+  github = "dekuofa1995"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+# [[menu.main]]
+#     name = "About"
+#     url = "page/about/"
+#     weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3

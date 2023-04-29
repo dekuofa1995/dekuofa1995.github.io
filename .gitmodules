@@ -1,0 +1,6 @@
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "content/post"]
+	path = content/post
+	url = git@github.com:dekuofa1995/MyNotes.git
