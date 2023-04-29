@@ -1,4 +1,4 @@
-baseurl = "https://dekuofa1995.github.io"
+baseurl = "https://dekuofa1995.github.io/"
 DefaultContentLanguage = "en"
 title = "Dekuofa's Blog"
 theme = "beautifulhugo"
