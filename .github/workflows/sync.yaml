@@ -1,5 +1,6 @@
 # Sync submodule
 # from: https://stackoverflow.com/a/67059629
+name: sync notes
 
 on:
   repository_dispatch:
@@ -12,6 +13,10 @@ on:
 defaults:
   run:
     shell: bash
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   sync:
