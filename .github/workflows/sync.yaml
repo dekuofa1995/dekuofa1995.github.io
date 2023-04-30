@@ -24,9 +24,10 @@ jobs:
         submodules: recursive
         fetch-depth: 1
 
-    - name: Update 'MyNotes' submodule
+    - name: Update 'MyNotes' Submodule
       run: git submodule update --remote --recursive content/post
 
-    - name: stefanzweifel/git-auto-commit-action@v4
+    - name: Auto Commit
+      uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Automated Change
