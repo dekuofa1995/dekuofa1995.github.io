@@ -28,7 +28,7 @@ jobs:
       with:
         submodules: recursive
         fetch-depth: 1
-
+        repo-token: ${{ secrets.MY_WORKFLOW_TOKEN }}
     - name: Update 'MyNotes' Submodule
       run: git submodule update --remote --recursive content/post
 
@@ -36,3 +36,4 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Automated Change
+        repo-token: ${{ secrets.MY_WORKFLOW_TOKEN }}
